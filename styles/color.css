@@ -67,166 +67,213 @@
 }
 
 
-.hot-deal{
+.hot-deal {
     display: flex;
     justify-content: space-around;
     border-radius: 8px;
-background: rgba(229, 84, 115, 0.05);
-width: 1922px;
-height: 620px;
-flex-shrink: 0;
-padding-top: 128px;
-    
+    background: rgba(229, 84, 115, 0.05);
+    width: 1922px;
+    height: 620px;
+    flex-shrink: 0;
+    padding-top: 128px;
+
 }
 
-.deal-title{
+.deal-title {
     padding-top: 230px;
     padding-bottom: 162px;
 }
-.deal-had{
+
+.deal-had {
     color: #272727;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
-.Off{
- color: #E55473;
+.Off {
+    color: #E55473;
 }
 
-.deal-par{
+.deal-par {
     display: flex;
-width: 594px;
-flex-direction: column;
-flex-shrink: 0;
-color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    width: 594px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 
-.deal-btn{
+.deal-btn {
     display: inline-flex;
     padding: 20px 43px;
     align-items: flex-start;
     gap: 10px;
     border-radius: 8px;
-background: #E55473;
-margin-left: 240px;
-margin-bottom: 162px;
-color: #FFF;
-font-family: Lato;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    background: #E55473;
+    margin-left: 240px;
+    margin-bottom: 162px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
-.deal-photo{
+.deal-photo {
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
 /* insta nia kisu kaj */
 
-.ins-title{
-text-align: center;
-padding-top: 28px;
+.ins-title {
+    text-align: center;
+    padding-top: 28px;
 }
 
-.ins-had{
+.ins-had {
     color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
-.ins-par{
+.ins-par {
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 
 }
 
-.ins-photo{
+.ins-photo {
     padding-left: 240px;
     padding-right: 240px;
     padding-top: 48px;
-    
+
 }
 
-.ins-i{
+.ins-i {
     width: 342px;
-height: 396px;
-flex-shrink: 0;
-gap: 24px;
+    height: 396px;
+    flex-shrink: 0;
+    gap: 24px;
 }
 
 /* get deal nia kisu kaj */
 
-.get-deal{
-  background-image: url('../Flower Asset/Rectangle\ 9.png');
-  background-repeat: no-repeat;
-border-radius: 8px;
-margin-left: 240px;
-margin-top: 128px;
-margin-bottom: 128px;
+.get-deal {
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin-left: 240px;
+    margin-top: 128px;
+    margin-bottom: 128px;
 
 }
 
-.get-title{
+.get-title {
     text-align: center;
 }
 
-.get-had{
+.get-had {
     color: #272727;
-text-align: center;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.get-par {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 48px;
+}
+
+.get-e {
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    
+}
+
+
+.get-btn {
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #E55473;
+
+}
+
+/* ses kaj */
+
+.flo{
+    text-align: center;
+    width: 1922px;
+height: 449px;
+flex-shrink: 0;
+background: #111010;
+
+}
+
+.flo-had{
+    color: #E55473;
 font-family: Lato;
-font-size: 40px;
+font-size: 48px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+padding-top: 128px;
 }
 
-.get-par{
-    color: rgba(39, 39, 39, 0.60);
-text-align: center;
+.flo-s{
+    color: #FFFFFF;
+}
+
+.flo-par{
+    
+
+color: rgba(255, 255, 255, 0.90);
+/* text-align: center; */
 font-family: Lato;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
-padding-bottom: 48px;
 }
 
-.get-e{
-    width: 700px;
-height: 64px;
-flex-shrink: 0;
-border-radius: 8px;
-background: #FFF;
-}
-
-.get-f{
-    margin-bottom: 20px;
-}
-.get-btn{
-    width: 150px;
-height: 64px;
-flex-shrink: 0;
-border-radius: 8px;
-background: #E55473;
-
+.flo-e{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
