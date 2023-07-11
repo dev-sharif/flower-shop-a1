@@ -46,9 +46,9 @@
     color: #FFF;
     font-family: Lato;
     font-size: 20px;
-    font-style: normal;
+
     font-weight: 700;
-    line-height: normal;
+
     display: inline-flex;
     padding: 20px 43px;
     align-items: flex-start;
@@ -74,8 +74,7 @@
     background: rgba(229, 84, 115, 0.05);
     width: 1922px;
     height: 620px;
-    flex-shrink: 0;
-    padding-top: 128px;
+   margin-top: 128px;
 
 }
 
@@ -123,9 +122,9 @@
     color: #FFF;
     font-family: Lato;
     font-size: 20px;
-    font-style: normal;
+
     font-weight: 700;
-    line-height: normal;
+
 }
 
 .deal-photo {
@@ -196,9 +195,9 @@
     text-align: center;
     font-family: Lato;
     font-size: 40px;
-    font-style: normal;
+    padding-top: 28px;
     font-weight: 800;
-    line-height: normal;
+
 }
 
 .get-par {
@@ -215,10 +214,10 @@
 .get-e {
     width: 700px;
     height: 64px;
-    flex-shrink: 0;
+
     border-radius: 8px;
     background: #FFF;
-    
+
 }
 
 
@@ -233,47 +232,69 @@
 
 /* ses kaj */
 
-.flo{
+.flo {
     text-align: center;
     width: 1922px;
-height: 449px;
-flex-shrink: 0;
-background: #111010;
+    height: 449px;
+    flex-shrink: 0;
+    background: #111010;
 
 }
 
-.flo-had{
+.flo-had {
     color: #E55473;
-font-family: Lato;
-font-size: 48px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-padding-top: 128px;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 128px;
 }
 
-.flo-s{
+.flo-s {
     color: #FFFFFF;
 }
 
-.flo-par{
-    
+.flo-par {
 
-color: rgba(255, 255, 255, 0.90);
-/* text-align: center; */
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+
+    color: rgba(255, 255, 255, 0.90);
+    /* text-align: center; */
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 
-.flo-e{
+.flo-e {
     color: rgba(255, 255, 255, 0.40);
-text-align: center;
-font-family: Lato;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* bonus nia kisu kaj */
+
+.shop-now {
+    text-align: center;
+    background-image: url('../Flower Asset/heart.jpg');
+    background-size: cover;
+    border-radius: 8px;
+
+
+}
+
+.last-btn {
+    background-color: #272727;
+    color: white;
+    border-radius: 8px;
+
+}
+
+.e-par {
+    text-align: left;
 }
