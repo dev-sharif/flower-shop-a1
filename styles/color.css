@@ -66,6 +66,100 @@
     margin-right: 24px;
 }
 
+/* bonus nia kisu kaj */
+
+.bon-title {
+    text-align: center;
+    margin-top: 178px;
+}
+
+.bon-had {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+
+    font-weight: 800;
+
+}
+
+.bon-par {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.bon-photo{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 25px;
+}
+
+.h-1{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+}
+
+.h-2{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+}
+
+.h-3{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+}
+
+.h-title{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+}
+
+/* delivery nia kisu kaj */
+
+.deli{
+    border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+margin-left: 240px;
+margin-right: 240px;
+margin-top: 84px;
+}
+
+.deli-1{
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    padding-top: 84px;
+    padding-bottom: 85px;
+    
+}
+
+.deli-t{
+    color: rgba(39, 39, 39, 0.80);
+
+font-family: Lato;
+font-size: 24px;
+font-weight: 600;
+line-height: 35px;
+}
+
+.deli-p{
+    padding-left: 125px;
+
+}
+
+
+/* hot deal nia kisu kaj */
 
 .hot-deal {
     display: flex;
@@ -74,7 +168,7 @@
     background: rgba(229, 84, 115, 0.05);
     width: 1922px;
     height: 620px;
-   margin-top: 128px;
+    margin-top: 128px;
 
 }
 
@@ -187,7 +281,10 @@
 }
 
 .get-title {
-    text-align: center;
+ text-align: center;
+padding-bottom: 80px;
+padding-top: 40px;
+   
 }
 
 .get-had {
@@ -230,7 +327,7 @@
 
 }
 
-/* ses kaj */
+/* footer nia kisu kaj */
 
 .flo {
     text-align: center;
@@ -277,15 +374,13 @@
     line-height: normal;
 }
 
-/* bonus nia kisu kaj */
+/* bonus nia aro kisu kaj */
 
 .shop-now {
     text-align: center;
     background-image: url('../Flower Asset/heart.jpg');
     background-size: cover;
     border-radius: 8px;
-
-
 }
 
 .last-btn {
